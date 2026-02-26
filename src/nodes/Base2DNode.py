@@ -18,6 +18,15 @@ class Base2DNode(BaseNode):
                 rotation_degrees: float = 0.0,
                 scale: Vector2D = scale,
                 skew: float = 0.0):
+        
         self.global_position = global_position
         self.global_rotation = global_rotation
+        self.global_rotation_degrees = global_rotation_degrees
+        self.global_scale = global_scale
+        self.global_skew = global_skew
+        self.position = position
+        self.rotation = rotation
+        self.rotation_degrees = rotation_degrees
+        self.scale = scale
+        self.skew = skew
 
